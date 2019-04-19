@@ -26,7 +26,9 @@ class RadioGroup extends Component {
 }
 
 RadioGroup.propTypes = {
+    /** Array of objects for radio optons */
    options: PropTypes.array.isRequired,
+   /** This is how you add content to the 'Description' in Styleguidist  */
    onRadioChange: PropTypes.func,
    radioValue: PropTypes.string
 };
